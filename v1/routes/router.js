@@ -6,19 +6,19 @@ var User = require('../models/user');
 // GET index
 router.get('/', function (req, res, next) {
   //get rid of hard coded directory 
-  return res.sendFile('/Users/meister.xyz/Documents/Coding/NodeJs/ur/v1/client/index.html');
+  return res.sendFile('/Users/meister.xyz/Documents/Coding/NodeJs/ur/UR LOC/v1/client/index.html');
 });
 
 // GET register
 router.get('/register', function (req, res, next) {
   //get rid of hard coded directory 
-  return res.sendFile('/Users/meister.xyz/Documents/Coding/NodeJs/ur/v1/client/register.html');
+  return res.sendFile('/Users/meister.xyz/Documents/Coding/NodeJs/ur/UR LOC/v1/client/register.html');
 });
 
 // GET login
 router.get('/login', function (req, res, next) {
   //get rid of hard coded directory 
-  return res.sendFile('/Users/meister.xyz/Documents/Coding/NodeJs/ur/v1/client/login.html');
+  return res.sendFile('/Users/meister.xyz/Documents/Coding/NodeJs/ur/UR LOC/v1/client/login.html');
 });
 
 
@@ -102,7 +102,7 @@ router.get('/lobby', function (req, res, next) {
         } else {
           //return res.send('<h1>Name: </h1>' + user.username + '<h2>Mail: </h2>' + user.email + '<br><a type="button" href="/logout">Logout</a>')
           //get rid of hard coded directory 
-          return res.sendFile('/Users/meister.xyz/Documents/Coding/NodeJs/ur/v1/client/lobby.html');
+          return res.sendFile('/Users/meister.xyz/Documents/Coding/NodeJs/ur/UR LOC/v1/client/lobby.html');
         }
       }
     });
